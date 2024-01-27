@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "get-settings"
+version = "0.1.0"
+description = "get-settings is a python library designed to facilitate the retrieval of configuration variables from a settings.py file."
+license = "MIT"
+authors = ["Ahmed <ahmedtamer552001@gmail.com>"]
+maintainers = [
+    "Ahmed <ahmedtamer552001@gmail.com>",
+]
+readme = "README.md"
+homepage = "https://pypi.org/project/get-settings/"
+repository = "https://github.com/Tammura/get-settings"
+keywords = ["packaging", "poetry"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/Tammura/get-settings/issues"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
