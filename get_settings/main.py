@@ -71,7 +71,7 @@ def load_settings(settings_path: Optional[StrPath] = None) -> dict:
 
     if not settings_path:
         settings_variables = {}
-        logging.warning("read-settings could not find settings file %s.", settings_path or 'settings.py')
+        logging.warning("get-settings could not find settings file %s.", settings_path or 'settings.py')
     else:
         module_name = 'utils.settings.module'
         spec = importlib.util.spec_from_file_location(module_name, settings_path)
