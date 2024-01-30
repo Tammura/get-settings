@@ -38,7 +38,7 @@ Ensure that `settings.py` file exists in the project root and contains the neces
 Don't forget to add `get_settings` to your pyproject.toml:
 ```toml
 dependencies = [
-    "get-settings>=0.1.0",
+    "get-settings>=0.1.1",
 ]
 ```
 
